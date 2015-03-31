@@ -1,0 +1,57 @@
+## Copyright (C) 2015 Defo
+## 
+## This program is free software; you can redistribute it and/or modify it
+## under the terms of the GNU General Public License as published by
+## the Free Software Foundation; either version 3 of the License, or
+## (at your option) any later version.
+## 
+## This program is distributed in the hope that it will be useful,
+## but WITHOUT ANY WARRANTY; without even the implied warranty of
+## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+## GNU General Public License for more details.
+## 
+## You should have received a copy of the GNU General Public License
+## along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+## -*- texinfo -*- 
+## @deftypefn {Function File} {@var{retval} =} Rez (@var{input1}, @var{input2})
+##
+## @seealso{}
+## @end deftypefn
+
+## Author: Defo <Defo@DEFO-PC>
+## Created: 2015-03-31
+
+function [ohms] = Rez (a, b, c, d)
+if (a =='bla')
+{
+ a=0;
+}
+else if (a =='bro')
+{
+a = 1;
+}
+else if (a == 'red')
+{
+ a =2;
+}
+bla = 0;
+bro = 1;
+red = 2;
+ora =3;
+yel= 4;
+gre =5;
+blu=6;
+vio=7;
+grey=8;
+white = 9;
+multbla=1;
+multbro=10;
+multred=100;
+multor=1000;
+multyel=10000;
+multgr=100000;
+
+
+
+endfunction
